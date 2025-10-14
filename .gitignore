@@ -3,3 +3,6 @@
 *.tfstate
 *.tfstate.backup
 a1.generic-variables.tf
+ssh-keys
+*.pem
+*.pub
