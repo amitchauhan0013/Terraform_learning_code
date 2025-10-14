@@ -1,24 +1,24 @@
 variable "resource_group_name" {
   description = "this is the name of the resource group"
-    type        = string #map of string boolean number list
-    default = "gopal-rg-kyn"
+  type        = string #map of string boolean number list
+  default     = "gopal-rg-kyn"
 }
 
 variable "resource_group_location" {
   description = "this is the location of the resource group"
-    type        = string #map of string boolean number list
-    default = "eastus"
-  
+  type        = string #map of string boolean number list
+  default     = "eastus"
+
 }
 
 variable "environment" {
-  type = string
+  type        = string
   description = "this is the environment"
-  default = "dev"
+  default     = "dev"
 }
 
 variable "business_unit" {
-  type = string
+  type        = string
   description = "this is the business unit"
-  default = "sap"
+  default     = "sap"
 }
