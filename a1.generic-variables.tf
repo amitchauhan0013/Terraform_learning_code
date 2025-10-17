@@ -1,7 +1,7 @@
 variable "resource_group_name" {
   description = "this is the name of the resource group"
   type        = string #map of string boolean number list
-  default     = "gopal-rg-kyn"
+  default     = "amit-rg-kyn"
 }
 
 variable "resource_group_location" {

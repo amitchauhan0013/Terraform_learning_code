@@ -21,7 +21,7 @@ resource "azurerm_subnet_network_security_group_association" "web_nsg_associatio
 locals {
   web_nsg_rule_inbound = { #this is the name
 
-    "110" : "22", #expression in key value format priority : portnumber
+    "110" : "3389", #expression in key value format priority : portnumber
     "120" : "80",
     "130" : "443"
   }
